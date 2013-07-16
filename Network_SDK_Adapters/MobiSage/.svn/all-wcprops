@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/svn/!svn/ver/3841/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobiSage
+END
+MobiSageResourcePackage.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/svn/!svn/ver/1224/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobiSage/MobiSageResourcePackage.h
+END
+JSONKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/svn/!svn/ver/1224/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobiSage/JSONKit.h
+END
+MobiSagePackage.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/svn/!svn/ver/1224/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobiSage/MobiSagePackage.h
+END
+GuoHeAdAdapter_MobiSage.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/svn/!svn/ver/3841/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobiSage/GuoHeAdAdapter_MobiSage.h
+END
+GuoHeAdAdapter_MobiSage.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/svn/!svn/ver/3841/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobiSage/GuoHeAdAdapter_MobiSage.m
+END
+MobiSageSDK.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/svn/!svn/ver/3841/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobiSage/MobiSageSDK.h
+END
+libMobiSageSDK.a
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/svn/!svn/ver/3841/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobiSage/libMobiSageSDK.a
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/svn/!svn/ver/1253/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Wooboo
+END
+CommonADColor.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/svn/!svn/ver/430/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Wooboo/CommonADColor.h
+END
+ImpressionADColor.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/svn/!svn/ver/430/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Wooboo/ImpressionADColor.h
+END
+libWooboo_iOS_Simulator_SDK2.1.a
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/svn/!svn/ver/432/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Wooboo/libWooboo_iOS_Simulator_SDK2.1.a
+END
+libWooboo_iOS_SDK2.1.a
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/svn/!svn/ver/432/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Wooboo/libWooboo_iOS_SDK2.1.a
+END
+GuoHeAdAdapter_Wooboo.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/svn/!svn/ver/1118/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Wooboo/GuoHeAdAdapter_Wooboo.h
+END
+GuoHeAdAdapter_Wooboo.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/svn/!svn/ver/1253/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Wooboo/GuoHeAdAdapter_Wooboo.m
+END
+CommonADView.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/svn/!svn/ver/430/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Wooboo/CommonADView.h
+END
+ImpressionADView.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/svn/!svn/ver/430/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Wooboo/ImpressionADView.h
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include
+END
+FtadHtml5BannerView.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/svn/!svn/ver/5162/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include/FtadHtml5BannerView.h
+END
+FtadManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/svn/!svn/ver/5162/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include/FtadManager.h
+END
+FtadPushView.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/svn/!svn/ver/5162/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include/FtadPushView.h
+END
+FtadFullScreenStartView.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/svn/!svn/ver/5162/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include/FtadFullScreenStartView.h
+END
+FtadStatusDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/svn/!svn/ver/5162/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include/FtadStatusDelegate.h
+END
+FtadInsertView.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/svn/!svn/ver/5162/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include/FtadInsertView.h
+END
+FtadBannerView.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/svn/!svn/ver/5162/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include/FtadBannerView.h
+END
+FtadSdk.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/svn/!svn/ver/5162/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include/FtadSdk.h
+END
+FtadDoorCurtainView.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/svn/!svn/ver/5162/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include/FtadDoorCurtainView.h
+END
+FtadWindowCurtainView.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/svn/!svn/ver/5162/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/FtAd/Include/FtadWindowCurtainView.h
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/svn/!svn/ver/5172/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob
+END
+GADAdSize.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/svn/!svn/ver/4011/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GADAdSize.h
+END
+GADBannerView.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/svn/!svn/ver/4011/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GADBannerView.h
+END
+GADRequestError.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/svn/!svn/ver/4011/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GADRequestError.h
+END
+GuoHeAdAdapter_Admob.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/svn/!svn/ver/4814/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GuoHeAdAdapter_Admob.h
+END
+GADAdNetworkExtras.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/svn/!svn/ver/4011/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GADAdNetworkExtras.h
+END
+GADInterstitialDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/svn/!svn/ver/8/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GADInterstitialDelegate.h
+END
+GADRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/svn/!svn/ver/5172/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GADRequest.h
+END
+GuoHeAdAdapter_Admob.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/svn/!svn/ver/4842/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GuoHeAdAdapter_Admob.m
+END
+GADAdMobExtras.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/svn/!svn/ver/4011/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GADAdMobExtras.h
+END
+GADBannerViewDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/svn/!svn/ver/8/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GADBannerViewDelegate.h
+END
+GADInterstitial.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/svn/!svn/ver/3284/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/GADInterstitial.h
+END
+libGoogleAdMobAds.a
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/svn/!svn/ver/5172/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Admob/libGoogleAdMobAds.a
+END

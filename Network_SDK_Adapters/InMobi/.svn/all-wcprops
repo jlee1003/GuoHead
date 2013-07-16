@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi
+END
+GuoHeAdAdapter_InMobi.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/svn/!svn/ver/1253/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi/GuoHeAdAdapter_InMobi.h
+END
+GuoHeAdAdapter_InMobi.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi/GuoHeAdAdapter_InMobi.m
+END
+IMAdInterstitialDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi/IMAdInterstitialDelegate.h
+END
+IMAdRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi/IMAdRequest.h
+END
+IMAdError.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi/IMAdError.h
+END
+IMAdDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi/IMAdDelegate.h
+END
+IMAdView.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi/IMAdView.h
+END
+IMSDKUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi/IMSDKUtil.h
+END
+IMAdInterstitial.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi/IMAdInterstitial.h
+END
+libInMobi_iOS.a
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/svn/!svn/ver/5174/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/InMobi/libInMobi_iOS.a
+END

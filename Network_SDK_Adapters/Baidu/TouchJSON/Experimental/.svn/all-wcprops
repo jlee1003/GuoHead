@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/svn/!svn/ver/5183/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Baidu/TouchJSON/Experimental
+END
+CFilteringJSONSerializer.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/svn/!svn/ver/5183/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Baidu/TouchJSON/Experimental/CFilteringJSONSerializer.h
+END
+CJSONSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/svn/!svn/ver/5183/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Baidu/TouchJSON/Experimental/CJSONSerialization.h
+END
+CJSONDeserializer_BlocksExtensions.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/svn/!svn/ver/5183/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Baidu/TouchJSON/Experimental/CJSONDeserializer_BlocksExtensions.h
+END
+CFilteringJSONSerializer.m
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/svn/!svn/ver/5183/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Baidu/TouchJSON/Experimental/CFilteringJSONSerializer.m
+END
+CJSONSerialization.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/svn/!svn/ver/5183/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Baidu/TouchJSON/Experimental/CJSONSerialization.m
+END
+CJSONDeserializer_BlocksExtensions.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/svn/!svn/ver/5183/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Baidu/TouchJSON/Experimental/CJSONDeserializer_BlocksExtensions.m
+END
+CJSONSerializedData.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/svn/!svn/ver/5183/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Baidu/TouchJSON/Experimental/CJSONSerializedData.h
+END
+CJSONSerializedData.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/svn/!svn/ver/5183/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Baidu/TouchJSON/Experimental/CJSONSerializedData.m
+END

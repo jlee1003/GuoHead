@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/svn/!svn/ver/4977/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Domob
+END
+GuoHeAdAdapter_Domob.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/svn/!svn/ver/4814/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Domob/GuoHeAdAdapter_Domob.h
+END
+DMAdView.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/svn/!svn/ver/4977/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Domob/DMAdView.h
+END
+DMTools.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/svn/!svn/ver/4814/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Domob/DMTools.h
+END
+GuoHeAdAdapter_Domob.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/svn/!svn/ver/4977/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Domob/GuoHeAdAdapter_Domob.m
+END
+DMInterstitialAdController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/svn/!svn/ver/4814/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Domob/DMInterstitialAdController.h
+END
+libDomobAdSDK.a
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/svn/!svn/ver/4977/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/Domob/libDomobAdSDK.a
+END

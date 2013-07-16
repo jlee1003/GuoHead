@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/svn/!svn/ver/4842/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobWIN
+END
+MobWinBannerView.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/svn/!svn/ver/4814/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobWIN/MobWinBannerView.h
+END
+MobWinSpotView.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/svn/!svn/ver/4814/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobWIN/MobWinSpotView.h
+END
+GuoHeAdAdapter_MobWIN.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/svn/!svn/ver/4842/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobWIN/GuoHeAdAdapter_MobWIN.m
+END
+MobWin.a
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/svn/!svn/ver/4814/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobWIN/MobWin.a
+END
+MobWinBannerViewDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/svn/!svn/ver/4814/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobWIN/MobWinBannerViewDelegate.h
+END
+MobWinSpotViewDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/svn/!svn/ver/4814/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobWIN/MobWinSpotViewDelegate.h
+END
+GuoHeAdAdapter_MobWIN.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/svn/!svn/ver/3524/ios/GuoHeProiOSDev/GuoHeProiOSDev/AdNetworkSDK/MobWIN/GuoHeAdAdapter_MobWIN.h
+END
