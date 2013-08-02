@@ -83,7 +83,7 @@
 -(void) willDisplayAd:(BaiduMobAdView*) adview
 {
     [self.adView setAdContentView:adview];
-    [self.adView adapterDidFinishLoadingAd:self shouldTrackImpression:NO];
+    [self.adView adapterDidFinishLoadingAd:self shouldTrackImpression:YES];
 }
 
 -(void) failedDisplayAd:(BaiduMobFailReason) reason
@@ -98,7 +98,6 @@
 
 -(void) didAdImpressed
 {
-    [self.adView adapterDidImpressAd];
 }
 
 -(void) didAdClicked

@@ -38,7 +38,7 @@
         [self.manager addFtadBannerView:_bannerView];
         [self.manager start];
 
-        [self.adView adapterDidFinishLoadingAd:self shouldTrackImpression:NO];
+        [self.adView adapterDidFinishLoadingAd:self shouldTrackImpression:YES];
 	}
     else{
         
@@ -52,7 +52,7 @@
 
 -(void)didFtadReceiveAdSuccess:(NSString *)adIdentify
 {
-    [self.adView adapterDidImpressAd];
+	
 }
 
 -(void)didFtadReceiveAdFail:(NSString *)adIdentify

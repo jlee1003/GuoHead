@@ -27,11 +27,11 @@
         
         [_adBannerView setViewControllerForBrowser:[self.adView.delegate viewControllerForPresentingModalView]];
         
-        if (adsize.width==320&&adsize.height==50) {
-            _adBannerView.frame = CGRectMake(0, 0, 320, 50);
-        } else if (adsize.width==728&&adsize.height==90) {
+        if (adsize.width==728&&adsize.height==90) {
             _adBannerView.frame = CGRectMake(0, 0, 728, 90);
-        } 
+        } else{
+			_adBannerView.frame = CGRectMake(0, 0, 320, 50);
+		}
         [_adBannerView setRefreshInterval:DisableRefresh];
         [_adBannerView setAccelerometerEnabled:NO];
         
