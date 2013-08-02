@@ -43,7 +43,7 @@
 	if ([keyArray count]>2) {
         self.theKey = [keyArray objectAtIndex:0]; 
         self.theSpec = [keyArray objectAtIndex:1];
-        self.adBannerView = [[BaiduMobAdView alloc] init];
+        self.adBannerView = [[[BaiduMobAdView alloc] init] autorelease];
         _adBannerView.frame = CGRectMake(0, 0, 320, 50);
         _adBannerView.AdType = [[keyArray objectAtIndex:2] intValue];
 //        _adBannerView.AdType = BaiduMobAdViewTypeImage;

@@ -20,7 +20,7 @@
 }
 
 - (void)getAdWithParams:(NSString *)keyInfo adSize:(CGSize)adsize{
-    [YouMiView setShouldGetLocation:NO];
+    [YouMiConfig setShouldGetLocation:NO];
     YouMiBannerContentSizeIdentifier adSizeIndetifier = YouMiBannerContentSizeIdentifier320x50;
     if (adsize.width==320&&adsize.height==50) {
         adSizeIndetifier = YouMiBannerContentSizeIdentifier320x50;
@@ -34,13 +34,13 @@
         adSizeIndetifier = YouMiBannerContentSizeIdentifier728x90;
     }else{
         GHLogWarn(@"App YouMi size wrong..");
-        adSizeIndetifier = YouMiBannerContentSizeIdentifierUnknow;
+        adSizeIndetifier = YouMiBannerContentSizeIdentifier320x50;
     }
     self.youMiView = [[YouMiView alloc] initWithContentSizeIdentifier:adSizeIndetifier delegate:self];
     NSArray *keyArray = [keyInfo componentsSeparatedByString:@"|;|"];
     if ([keyArray count]>1) {
-        _youMiView.appID = [keyArray objectAtIndex:0];
-        _youMiView.appSecret = [keyArray objectAtIndex:1];
+		[YouMiConfig setAppID:[keyArray objectAtIndex:0]];
+		[YouMiConfig setAppSecret:[keyArray objectAtIndex:1]];
         [_youMiView start];
         
     } else {

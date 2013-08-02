@@ -29,7 +29,7 @@
         //---------- begin: add codes for non-listener ad network track click data
         if (_nonListenerGR==nil) {
             _nonListenerGR = [[UITapGestureRecognizer alloc] initWithTarget:self.adView action:@selector(nonListenerNetworkAdClicked)];
-        }        
+        }
         _nonListenerGR.delegate = self;
         [_nonListenerGR setNumberOfTapsRequired:1];
         [_nonListenerGR setNumberOfTouchesRequired:1];
@@ -42,12 +42,11 @@
 
 - (BOOL)WiAdUseTestMode:(WiAdView*)adView{
     //返回是否使用测试模式
+#ifdef __OPTIMIZE__
     return NO;
-}
-
-- (int)WiAdTestAdType:(WiAdView *)adView
-{
-    return TEST_WIAD_TYPE_BANNER;
+#else
+	return YES;
+#endif
 }
 
 - (void)WiAdDidLoad:(WiAdView *)adView

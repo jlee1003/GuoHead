@@ -8,19 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "GHBaseAdapter.h"
-#import "SmartMadAdView.h"
-#import "SmartMadDelegate.h"
-#import "SmartMadAdView.h"
+#import "SMAdBannerView.h"
 
-@interface GuoHeAdAdapter_SmartMad : GHBaseAdapter <SmartMadAdViewDelegate,SmartMadAdEventDelegate, UIGestureRecognizerDelegate>{
-    SmartMadAdView *_adBannerView;
-    NSString *keyInfoStr;
-    CGSize adviewSize;
+@interface GuoHeAdAdapter_SmartMad : GHBaseAdapter <SMAdBannerViewDelegate, UIGestureRecognizerDelegate>{
+    SMAdBannerView *_adBannerView;
     UITapGestureRecognizer *_nonListenerGR;
 }
 
-@property (nonatomic,retain) NSString *keyInfoStr;
-@property (nonatomic, assign) CGSize adviewSize;
-@property (nonatomic,retain) SmartMadAdView *adBannerView;
+@property (nonatomic,retain) SMAdBannerView *adBannerView;
 
 @end

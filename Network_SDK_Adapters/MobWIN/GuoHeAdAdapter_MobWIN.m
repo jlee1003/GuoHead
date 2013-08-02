@@ -15,7 +15,8 @@
 
 - (void)dealloc
 {
-	[_adBannerView  release];
+	self.adBannerView.delegate = nil;
+	self.adBannerView = nil;
 	[super dealloc];
 }
 
@@ -38,13 +39,16 @@
     
     NSArray *keyArray = [keyInfo componentsSeparatedByString:@"|;|"];
 	if ([keyArray count]>0) {
-        MobWinBannerView *adBanner = [[MobWinBannerView alloc] initMobWinBannerSizeIdentifier:adSizeIndetifier keyByMobWIN:@"son1128zoz"];
+        MobWinBannerView *adBanner = [MobWinBannerView instance];
+		adBanner.adGpsMode = NO;
+		adBanner.adSizeIdentifier = adSizeIndetifier;
+		//adBanner.adIntegrateKey = @"son1128zoz";
+		adBanner.delegate = self;
         adBanner.rootViewController = [self.adView.delegate viewControllerForPresentingModalView];
+		adBanner.adUnitID = [keyArray objectAtIndex:0];
+
         self.adBannerView = adBanner;
-        [adBanner release];
         
-        [self.adBannerView setAdUnitID:[keyArray objectAtIndex:0]];
-        _adBannerView.delegate = self;
         [_adBannerView startRequest];
         
     }

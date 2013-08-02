@@ -15,7 +15,7 @@
 
 - (void)getAdWithParams:(NSString *)keyInfo adSize:(CGSize)adsize
 {
-    CGSize doMobsize;
+    CGSize doMobsize = DOMOB_AD_SIZE_320x50;
     if (adsize.width==320&&adsize.height==50) {
         doMobsize = DOMOB_AD_SIZE_320x50;
     }else if (adsize.width==300&&adsize.height==250) {
@@ -28,7 +28,7 @@
     
 	NSArray *keyArray = [keyInfo componentsSeparatedByString:@"|;|"];
 	if ([keyArray count]>1) {
-        self.doMobView = [[DMAdView alloc] initWithPublisherId:[keyArray objectAtIndex:0] size:doMobsize autorefresh:NO];
+        self.doMobView = [[[DMAdView alloc] initWithPublisherId:[keyArray objectAtIndex:0] size:doMobsize autorefresh:NO] autorelease];
         self.doMobView.frame = CGRectMake(0, 0, adsize.width, adsize.height);
         self.doMobView.delegate = self;
         self.doMobView.rootViewController = [self.adView.delegate viewControllerForPresentingModalView];

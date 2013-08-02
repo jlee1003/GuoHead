@@ -37,7 +37,7 @@
             theSize = kGADAdSizeInvalid;
         }
         
-		self.adBannerView = [[GADBannerView alloc] initWithAdSize:theSize];
+		self.adBannerView = [[[GADBannerView alloc] initWithAdSize:theSize] autorelease];
 		_adBannerView.delegate = self;
 		_adBannerView.adUnitID = [keyArray objectAtIndex:0];
         _adBannerView.rootViewController = [self.adView.delegate viewControllerForPresentingModalView];

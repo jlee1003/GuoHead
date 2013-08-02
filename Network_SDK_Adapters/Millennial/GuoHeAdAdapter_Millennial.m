@@ -16,10 +16,7 @@
 {
     [_adBannerView removeGestureRecognizer:_nonListenerGR];
     [_nonListenerGR release];
-	self.adBannerView.refreshTimerEnabled = NO;
-    self.adBannerView.delegate = nil;
     self.adBannerView = nil;
-    [self.adBannerView release];
 	[super dealloc];
 }
 
@@ -27,12 +24,33 @@
 {
 	NSArray *keyArray = [keyInfo componentsSeparatedByString:@"|;|"];
 	if ([keyArray count]>0) {
-        MMAdView *mmadView = [[MMAdView adWithFrame:CGRectMake(0,0,320,50) 
-                                             type:MMBannerAdTop 
-                                             apid:[keyArray objectAtIndex:0] 
-                                         delegate:self 
-                                           loadAd:YES 
-                                       startTimer:YES] retain];
+        MMAdView *mmadView = [[MMAdView alloc] initWithFrame:CGRectMake(0,0,320,50) apid:[keyArray objectAtIndex:0] rootViewController:[self.adView.delegate viewControllerForPresentingModalView]];
+		CLLocation* location = nil;
+		if ([self.adView.delegate respondsToSelector:@selector(locationInfo)]) {
+			location = [self.adView.delegate locationInfo];
+		}
+		if(location){
+			MMRequest *request = [MMRequest requestWithLocation:location];
+			
+			[mmadView getAdWithRequest:request onCompletion:^(BOOL success, NSError *error) {
+				if (success) {
+					[self adRequestSucceeded:mmadView];
+				}
+				else {
+					[self adRequestFailed:mmadView];
+				}
+			}];
+		}else{
+			[mmadView getAd:^(BOOL success, NSError *error) {
+				if (success) {
+					[self adRequestSucceeded:mmadView];
+				}
+				else {
+					[self adRequestFailed:mmadView];
+				}
+			}];
+		}
+		
         self.adBannerView = mmadView;
         [mmadView release];
         

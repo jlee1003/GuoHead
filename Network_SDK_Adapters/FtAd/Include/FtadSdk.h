@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FtadStatusDelegate.h"
 
 @interface FtadSdk : NSObject {
     
 }
 
++(id<FtadStatusDelegate>)getFtadFullScreenAdStatusDelegate;
++(void)setFtadFullScrrenAdStatusDelegate:(id<FtadStatusDelegate>)delegate;
 //
 //
 +(void)initSdkConfig:(NSString*)pid;

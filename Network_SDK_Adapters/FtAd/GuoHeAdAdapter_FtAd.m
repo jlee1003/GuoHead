@@ -33,7 +33,7 @@
         self.bannerView.rootViewController_ = [self.adView.delegate viewControllerForPresentingModalView];
 		        
         [self.adView setAdContentView:_bannerView];
-        self.manager = [[FtadManager alloc] init];
+        self.manager = [[[FtadManager alloc] init] autorelease];
         self.manager.timeInterval = 100;
         [self.manager addFtadBannerView:_bannerView];
         [self.manager start];

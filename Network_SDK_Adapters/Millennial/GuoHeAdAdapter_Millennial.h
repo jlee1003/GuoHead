@@ -10,7 +10,7 @@
 #import "MMAdView.h"
 #import "GHBaseAdapter.h"
 
-@interface GuoHeAdAdapter_Millennial : GHBaseAdapter <MMAdDelegate, UIGestureRecognizerDelegate>
+@interface GuoHeAdAdapter_Millennial : GHBaseAdapter <UIGestureRecognizerDelegate>
 {
 	MMAdView *_adBannerView;
     UITapGestureRecognizer *_nonListenerGR;

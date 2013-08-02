@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "GHBaseAdapter.h"
 #import "MobWinBannerView.h"
-#import "MobWinBannerViewDelegate.h"
 
 @interface GuoHeAdAdapter_MobWIN : GHBaseAdapter <MobWinBannerViewDelegate>
 {
